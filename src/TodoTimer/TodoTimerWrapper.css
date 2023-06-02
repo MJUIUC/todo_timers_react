@@ -1,0 +1,29 @@
+.TodoTimerWrapper-body {
+  display: flex;
+  flex-direction: row;
+}
+
+.TodoTimerWrapper-base-container {
+  max-width: 40%;
+}
+
+.TodoTimerWrapper-input-forum {
+  border-style: solid;
+  max-width: 50%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.TodoTimerWrapper-input-forum form input {
+  margin-bottom: 1rem;
+}
+
+.TodoTimerWrapper-input-forum form button {
+  cursor: pointer;
+}
+
+.TodoTimerWrapper-todo-container {
+  border-style: solid;
+  min-width: 50%;
+  padding: 1rem;
+}

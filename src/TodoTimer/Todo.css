@@ -1,0 +1,33 @@
+.Todo-base-container {
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.Todo-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.Todo-header label {
+  cursor: pointer;
+}
+
+.Todo-body div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.Todo-body button {
+  cursor: pointer;
+}
